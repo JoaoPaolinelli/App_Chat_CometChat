@@ -446,13 +446,13 @@ A sample **Flutter** application integrating the **CometChat UI Kit** using **Cl
 ![login](https://github.com/user-attachments/assets/9cc0e8fe-a804-49fa-a679-c54040405381)
 
 
-### 2. Lista de Conversas
+### 2. Conversation List
 ![01](https://github.com/user-attachments/assets/8c8a6c84-3aec-4478-a933-d0f8fdcc33c6)
 
-### 4. Chat 1-a-1
+### 4. One-on-One Chat
 ![04](https://github.com/user-attachments/assets/8f086a33-6d94-4236-8583-24880cd7fca2)
 
-### 5. Chat em Grupo
+### 5. Group Chat
 ![05](https://github.com/user-attachments/assets/38a3d7f0-f544-478f-9ba5-e379facdf199)
 
 ## 🎯 Próximos passos
@@ -464,7 +464,7 @@ A sample **Flutter** application integrating the **CometChat UI Kit** using **Cl
 
 4. Polish animations & UX
 
-## 📬 Contato
+## 📬 Contact
 
 - **Phone:** [(31) 99155-7502](tel:+5531991557502)  
 - **Email:** [joaopaolinelli@gmail.cocm](mailto:joaopaolinelli@gmail.com)
