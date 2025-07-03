@@ -177,6 +177,7 @@ Uma aplicação de exemplo em **Flutter** que integra o **CometChat UI Kit** uti
 
 2. GetX: navegação e estado reativos padronizados.
 
+
 3. Dartz: uso de Either para tratar erros de forma funcional.
 
 4. Flutter native: uso de Image.network com errorBuilder para avatars, permissão de Internet no Android.
@@ -185,12 +186,17 @@ Uma aplicação de exemplo em **Flutter** que integra o **CometChat UI Kit** uti
 Para comprovar a integração, trouxe capturas de tela do aplicativo:
 
 1. LoginPage
+![login](https://github.com/user-attachments/assets/9cc0e8fe-a804-49fa-a679-c54040405381)
 
-2. Lista de Conversas
 
-3. Chat 1-a-1
+3. Lista de Conversas
+![01](https://github.com/user-attachments/assets/8c8a6c84-3aec-4478-a933-d0f8fdcc33c6)
 
-4. Chat em Grupo
+4. Chat 1-a-1
+![04](https://github.com/user-attachments/assets/8f086a33-6d94-4236-8583-24880cd7fca2)
+
+5. Chat em Grupo
+![05](https://github.com/user-attachments/assets/38a3d7f0-f544-478f-9ba5-e379facdf199)
 
 ## 🎯 Próximos passos
 1. Implementar Dark Mode / Tema customizado
@@ -206,4 +212,4 @@ Para comprovar a integração, trouxe capturas de tela do aplicativo:
 Se você quiser entrar em contato comigo, fique à vontade:
 
 - **Telefone:** [(31) 99155-7502](tel:+5531991557502)  
-- **E-mail:** [joaopaolinelli@gmail.cocm](mailto:joaopaolinelli@gmail.cocm)
+- **E-mail:** [joaopaolinelli@gmail.cocm](mailto:joaopaolinelli@gmail.com)
