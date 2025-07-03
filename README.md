@@ -29,7 +29,7 @@ Uma aplicação de exemplo em **Flutter** que integra o **CometChat UI Kit** uti
 
 1. Clone este repositório:  
    ```bash
-   git clone https://github.com/seu-usuario/cometchat_flutter.git
+   git clone https://github.com/joaoPaolinelli/App_Chat_CometChat
    cd cometchat_flutter
 2. Defina seu App ID e Auth Key no main.dart.
     ```bash
@@ -250,7 +250,7 @@ A sample **Flutter** application integrating the **CometChat UI Kit** using **Cl
 
 1. Clone this repository:  
    ```bash
-   git clone https://github.com/joaoPaolinelli/cometchat_flutter.git
+   git clone https://github.com/joaoPaolinelli/App_Chat_CometChat
    cd cometchat_flutter
 2. Set your App ID and Auth Key in main.dart.
     ```bash
