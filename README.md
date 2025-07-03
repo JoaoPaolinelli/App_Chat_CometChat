@@ -1,3 +1,14 @@
+## *Select a language*
+<p align="center"> 
+  <a href="#português"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/4x3/br.svg" alt="Português" width="48" /></a>
+  &nbsp;&nbsp;
+  <a href="#english"><img src="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.4.3/flags/4x3/us.svg" alt="English" width="48" /></a>
+</p>
+
+---
+
+## 🇧🇷 <a name="português"></a>
+
 # CometChat Flutter – Integração UI Kit
 
 Uma aplicação de exemplo em **Flutter** que integra o **CometChat UI Kit** utilizando **Clean Architecture** e **GetX** para gerenciamento de estado e navegação.
@@ -141,6 +152,7 @@ Uma aplicação de exemplo em **Flutter** que integra o **CometChat UI Kit** uti
       ],
     
     ),
+## 🇧🇷 English <a name="english"></a>
 
 ## ⚠️ Issues faced during implementation
 1. Erro de NDK no Android
@@ -185,17 +197,17 @@ Uma aplicação de exemplo em **Flutter** que integra o **CometChat UI Kit** uti
 ## 📸 Screenshots of successful integration
 Para comprovar a integração, trouxe capturas de tela do aplicativo:
 
-1. LoginPage
+### 1. LoginPage
 ![login](https://github.com/user-attachments/assets/9cc0e8fe-a804-49fa-a679-c54040405381)
 
 
-3. Lista de Conversas
+### 2. Lista de Conversas
 ![01](https://github.com/user-attachments/assets/8c8a6c84-3aec-4478-a933-d0f8fdcc33c6)
 
-4. Chat 1-a-1
+### 4. Chat 1-a-1
 ![04](https://github.com/user-attachments/assets/8f086a33-6d94-4236-8583-24880cd7fca2)
 
-5. Chat em Grupo
+### 5. Chat em Grupo
 ![05](https://github.com/user-attachments/assets/38a3d7f0-f544-478f-9ba5-e379facdf199)
 
 ## 🎯 Próximos passos
