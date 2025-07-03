@@ -1,7 +1,7 @@
-import 'package:cometchat_app/pages/conversation_page.dart';
-import 'package:cometchat_app/pages/login_page.dart';
-import 'package:cometchat_app/pages/messages_page.dart';
-import 'package:cometchat_app/pages/users_page.dart';
+import 'package:cometchat_app/presentation/pages/conversation_page.dart';
+import 'package:cometchat_app/presentation/pages/login_page.dart';
+import 'package:cometchat_app/presentation/pages/messages_page.dart';
+import 'package:cometchat_app/presentation/pages/users_page.dart';
 import 'package:cometchat_app/presentation/pages/splash_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';

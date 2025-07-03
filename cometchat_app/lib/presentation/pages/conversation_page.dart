@@ -1,8 +1,8 @@
 // lib/src/presentation/pages/conversations/conversations_page.dart
 
 import 'package:cometchat_app/controllers/conversation_controller.dart';
-import 'package:cometchat_app/pages/messages_page.dart';
-import 'package:cometchat_app/pages/users_page.dart';
+import 'package:cometchat_app/presentation/pages/messages_page.dart';
+import 'package:cometchat_app/presentation/pages/users_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
@@ -36,6 +36,11 @@ class ConversationsPage extends StatelessWidget {
         );
       }),
       floatingActionButton: FloatingActionButton(
+        hoverElevation: 5,
+        backgroundColor: const Color.fromARGB(192, 192, 191, 191),
+
+        // splashColor: Colors.blue,
+        // hoverColor: Colors.amber,
         child: const Icon(Icons.add),
         onPressed: () {
           Get.toNamed(UsersPage.routeName);
