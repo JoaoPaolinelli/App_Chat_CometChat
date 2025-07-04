@@ -246,7 +246,7 @@ A sample **Flutter** application integrating the **CometChat UI Kit** using **Cl
   
 ---
 
-## 📦 Instalação
+## 📦 Installation
 
 1. Clone this repository:  
    ```bash
