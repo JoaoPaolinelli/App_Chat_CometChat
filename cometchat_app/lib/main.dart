@@ -30,9 +30,9 @@ Future<void> main() async {
     ),
   );
 
-  // 1️⃣ Inicializa o SDK core
+  //  Inicializa o SDK core
 
-  // 2️⃣ Depois inicializa o UI Kit
+  //  Depois inicializa o UI Kit
   await CometChatUIKit.init(
     uiKitSettings:
         (UIKitSettingsBuilder()
@@ -44,7 +44,7 @@ Future<void> main() async {
             .build(),
   );
 
-  // 3️⃣ Configurações de DI/GetX (controllers, datasources, usecases)…
+  //  Configurações de DI/GetX (controllers, datasources, usecases)…
   final remoteDs = CometChatRemoteDataSource();
   final repo = ChatRepositoryImpl(remoteDs);
   final loginUC = LoginUseCase(repo);
@@ -53,7 +53,6 @@ Future<void> main() async {
   Get.put(LoginController(loginUseCase: loginUC));
   Get.put(ConversationsController(getConversationsUseCase: convUC));
 
-  // 4️⃣ Roda o app
   runApp(const MyApp());
 }
 
@@ -62,7 +61,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return GetMaterialApp(
-      // 1️⃣ Defina o theme com appBarTheme que inclui systemOverlayStyle
+      // Defina o theme com appBarTheme que inclui systemOverlayStyle
       theme: ThemeData.light().copyWith(
         appBarTheme: const AppBarTheme(
           backgroundColor: Colors.white,
@@ -74,7 +73,7 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
-      // 2️⃣ Também garanta que, ao iniciar, a status bar já esteja configurada
+      //  Também garanta que, ao iniciar, a status bar já esteja configurada
       builder: (context, child) {
         SystemChrome.setSystemUIOverlayStyle(
           const SystemUiOverlayStyle(

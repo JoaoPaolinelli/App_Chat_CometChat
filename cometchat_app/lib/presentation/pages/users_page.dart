@@ -25,7 +25,7 @@
 // }
 // lib/src/presentation/pages/users/users_page.dart
 
-import 'package:cometchat_app/pages/messages_page.dart';
+import 'package:cometchat_app/presentation/pages/messages_page.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:cometchat_chat_uikit/cometchat_chat_uikit.dart';
@@ -48,7 +48,7 @@ class UsersPage extends StatelessWidget {
               conversationType: ConversationType.user,
               conversationWith: user,
             );
-            // 2) Substitui a rota atual pela MessagesPage
+            // 2) Rota atual --> MessagesPage
             Get.offNamed(MessagesPage.routeName, arguments: conv);
           },
         ),
